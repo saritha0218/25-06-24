@@ -1,0 +1,34 @@
+body{
+    margin: 70px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 2px solid black;
+    background-color: rgb(190, 172, 172);
+}
+button{
+    margin-top: 40px;
+    width: 90px;
+    height: 40px;
+}
+#rotate:hover~#transforms {
+    transform: rotate(60deg);
+    }
+#scale:hover~#transforms {
+    transform: scaleX(1.5);
+}
+#skew:hover~#transforms {
+    transform: skew(25deg);
+}
+#translate:hover~#transforms {
+    transform: translate(30px , 30px);
+}
+#transforms{
+    width: 380px;
+    height: 300px;
+    transition: transform 3s ;
+    
+}
+img{
+    width: 350px;
+    height: 320px;
+}
